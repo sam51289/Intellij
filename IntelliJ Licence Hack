@@ -1,0 +1,6 @@
+1. Delete folder 
+    \.IntelliJIdea2019.1\config\eval
+2. Delete 
+      .IntelliJIdea2019.1\config\options\options.xml or remove eval related properties from other.xml file.
+3. delete folder from registry      
+   reg delete "HKEY_CURRENT_USER\Software\JavaSoft\Prefs\jetbrains\idea" /f 
